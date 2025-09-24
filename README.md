@@ -1,3 +1,5 @@
+Отлично! Вот полностью готовый `README.md`, красиво оформленный для GitHub:
+
 ```markdown
 # 🛒 Practic_5 Django Project
 
@@ -16,26 +18,27 @@
 ## 🗂 Структура проекта
 
 ```
-products/ # 📦 Приложение для работы с товарами
-├─ migrations/ # 🗄 Миграции базы данных
-├─ models/ # 📝 Модели: товары, категории, заказы, пользователи
-├─ serializers/ # 🔄 Сериализаторы для API
-├─ admin.py # 🛠 Настройка админ-панели
-├─ apps.py
-├─ tests.py # ✅ Тесты приложения
-├─ views.py # 👀 Вьюхи для API
-└─ init.py
 
-store_8_09_25/ # 🏗 Основной проект Django (подготовлен cpython-projects)
-├─ settings.py # ⚙️ Настройки проекта
-├─ urls.py # 🌐 URL маршруты
+products/          # 📦 Приложение для работы с товарами
+├─ migrations/     # 🗄 Миграции базы данных
+├─ models/         # 📝 Модели: товары, категории, заказы, пользователи
+├─ serializers/    # 🔄 Сериализаторы для API
+├─ admin.py        # 🛠 Настройка админ-панели
+├─ apps.py
+├─ tests.py        # ✅ Тесты приложения
+├─ views.py        # 👀 Вьюхи для API
+└─ **init**.py
+
+store\_8\_09\_25/     # 🏗 Основной проект Django (подготовлен cpython-projects)
+├─ settings.py     # ⚙️ Настройки проекта
+├─ urls.py         # 🌐 URL маршруты
 ├─ wsgi.py
 ├─ asgi.py
-└─ init.py
+└─ **init**.py
 
-manage.py # 🖥 Скрипт управления проектом
-requirements.txt # 📄 Зависимости проекта
-README.md # 📘 Этот файл
+manage.py           # 🖥 Скрипт управления проектом
+requirements.txt    # 📄 Зависимости проекта
+README.md           # 📘 Этот файл
 
 ```
 
@@ -122,5 +125,4 @@ python manage.py runserver
 
 Проект предоставляется без лицензии. Использование на свой риск.
 ```
-
 
