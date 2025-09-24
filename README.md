@@ -18,27 +18,44 @@
 ## 🗂 Структура проекта
 
 ```
-
-products/          # 📦 Приложение для работы с товарами
-├─ migrations/     # 🗄 Миграции базы данных
-├─ models/         # 📝 Модели: товары, категории, заказы, пользователи
-├─ serializers/    # 🔄 Сериализаторы для API
-├─ admin.py        # 🛠 Настройка админ-панели
+products/ # 📦 Приложение для работы с товарами
+├─ migrations/ # 🗄 Миграции базы данных
+│ 		└─ init.py
+│
+├─ models/ # 📝 Модели: товары, категории, заказы, пользователи
+│ 		├─ init.py
+│ 		├─ addresses.py # 📍 Адреса клиентов
+│ 		├─ categories.py # 🏷 Категории товаров
+│ 		├─ customers.py # 👤 Клиенты
+│ 		├─ orderitems.py # 📦 Товары в заказах
+│ 		├─ orders.py # 🧾 Заказы
+│ 		├─ product_details.py # 🔍 Детали товара
+│ 		├─ products.py # 🛒 Товары
+│ 		└─ suppliers.py # 🚚 Поставщики
+│
+├─ serializers/ # 🔄 Сериализаторы для API
+│ 		├─ init.py
+│ 		├─ addresses.py
+│ 		├─ categories.py
+│ 		├─ customers.py
+│ 		├─ orderitems.py
+│ 		├─ orders.py
+│ 		├─ product_details.py
+│ 		├─ products.py
+│ 		└─ suppilers.py
+│
+├─ admin.py # 🛠 Настройка админ-панели
 ├─ apps.py
-├─ tests.py        # ✅ Тесты приложения
-├─ views.py        # 👀 Вьюхи для API
-└─ **init**.py
+├─ tests.py # ✅ Тесты приложения
+├─ views.py # 👀 Вьюхи для API
+└─ init.py
 
-store\_8\_09\_25/     # 🏗 Основной проект Django (подготовлен cpython-projects)
-├─ settings.py     # ⚙️ Настройки проекта
-├─ urls.py         # 🌐 URL маршруты
+store_8_09_25/ # 🏗 Основной проект Django   (подготовлен cpython-projects)
+├─ settings.py # ⚙️ Настройки проекта
+├─ urls.py # 🌐 URL маршруты
 ├─ wsgi.py
 ├─ asgi.py
-└─ **init**.py
-
-manage.py           # 🖥 Скрипт управления проектом
-requirements.txt    # 📄 Зависимости проекта
-README.md           # 📘 Этот файл
+└─ init.py
 
 ```
 
