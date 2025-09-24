@@ -16,27 +16,26 @@
 ## 🗂 Структура проекта
 
 ```
-
-products/          # 📦 Приложение для работы с товарами
-├─ migrations/     # 🗄 Миграции базы данных
-├─ models/         # 📝 Модели: товары, категории, заказы, пользователи
-├─ serializers/    # 🔄 Сериализаторы для API
-├─ admin.py        # 🛠 Настройка админ-панели
+products/ # 📦 Приложение для работы с товарами
+├─ migrations/ # 🗄 Миграции базы данных
+├─ models/ # 📝 Модели: товары, категории, заказы, пользователи
+├─ serializers/ # 🔄 Сериализаторы для API
+├─ admin.py # 🛠 Настройка админ-панели
 ├─ apps.py
-├─ tests.py        # ✅ Тесты приложения
-├─ views.py        # 👀 Вьюхи для API
-└─ **init**.py
+├─ tests.py # ✅ Тесты приложения
+├─ views.py # 👀 Вьюхи для API
+└─ init.py
 
-store\_8\_09\_25/     # 🏗 Основной проект Django /// подготовил cpython-projects
-├─ settings.py     # ⚙️ Настройки проекта
-├─ urls.py         # 🌐 URL маршруты
+store_8_09_25/ # 🏗 Основной проект Django (подготовлен cpython-projects)
+├─ settings.py # ⚙️ Настройки проекта
+├─ urls.py # 🌐 URL маршруты
 ├─ wsgi.py
 ├─ asgi.py
-└─ **init**.py
+└─ init.py
 
-manage.py           # 🖥 Скрипт управления проектом
-requirements.txt    # 📄 Зависимости проекта
-README.md           # 📘 Этот файл
+manage.py # 🖥 Скрипт управления проектом
+requirements.txt # 📄 Зависимости проекта
+README.md # 📘 Этот файл
 
 ```
 
